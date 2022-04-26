@@ -15,7 +15,7 @@ class NavBar extends React.Component {
                 </Link>
 
         <Nav style={{color: 'orange'}}  >
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/" className="nav-link" >Home</Link>
             <Link to="/portfolio" className = "nav-link">Portfolio</Link>
             <Link to ="/contact" className= "nav-link">Contact</Link>
         </Nav>
