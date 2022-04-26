@@ -14,7 +14,7 @@ class NavBar extends React.Component {
                   <img src={logo} height="70px" />
                 </Link>
 
-        <Nav style={{color: 'orange'}} >
+        <Nav style={{color: 'orange'}}  >
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/portfolio" className = "nav-link">Portfolio</Link>
             <Link to ="/contact" className= "nav-link">Contact</Link>
