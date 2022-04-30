@@ -7,8 +7,7 @@ import Contact from "../src/Components/Contact/Contact";
 
 
 function App() {
-
-  // console.log("jekkk")g
+  console.log("hello")
   return (
     <>
       <Router>
