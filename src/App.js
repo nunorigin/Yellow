@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "../src/Layout/Nav"
+import TopBar from "../src/Layout/TopBar"
 import Home from "../src/Components/home";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "../src/Components/Contact/Contact";
+import Footer from "../src/Layout/Footer";
+
 
 
 function App() {
@@ -11,12 +13,13 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <TopBar />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/portfolio' element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
