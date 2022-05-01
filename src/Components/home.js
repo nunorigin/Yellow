@@ -1,7 +1,8 @@
 import React from 'react';
 import "../styles.css";
+import Cards from './Cards/Card';
 import Forms from './Forms/Forms';
-// import Toasts from "./Toast/Toast";
+import Toasts from "./Toast/Toast";
 
 
 
@@ -10,15 +11,15 @@ const Home = () => {
     return (
         <div className="main">
             <div className="main-left">
-            <Forms/>
+            <Forms/> 
             </div>
             <div className="main-right">
-               
-            {/* <Toasts/> */}
+            <Cards/>
             
-               
+            <Toasts/>
             </div>
-       
+
+
         </div>
     )
 }
